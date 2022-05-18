@@ -1,3 +1,3 @@
 public abstract class ExpressionParser {
-    public abstract String parse();
+    public abstract Expression parse(String expressionString);
 }
