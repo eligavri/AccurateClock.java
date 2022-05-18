@@ -1,2 +1,2 @@
-public class RoundedExpression {
+public class RoundedExpression extends Expression{
 }

@@ -1,2 +1,2 @@
-public class UnaryMinus {
+public class UnaryMinus extends Expression {
 }

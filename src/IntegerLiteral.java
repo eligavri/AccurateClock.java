@@ -1,2 +1,2 @@
-public class IntegerLiteral {
+public class IntegerLiteral extends Expression {
 }

@@ -1,2 +1,2 @@
-public class MultiMultiplication {
+public class MultiMultiplication extends Expression{
 }

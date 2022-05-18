@@ -1,2 +1,2 @@
-public class MultiAddition {
+public class MultiAddition extends Expression {
 }
