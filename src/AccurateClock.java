@@ -1,5 +1,5 @@
 public class AccurateClock extends Clock{
-    public int second;
+    protected int second;
     public AccurateClock(int hour, int minute, int second) {
         super(hour, minute);
         setSecond(second);

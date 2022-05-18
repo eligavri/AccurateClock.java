@@ -1,6 +1,6 @@
 public class Clock {
-    public int hour;
-    public int minute;
+    protected int hour;
+    protected int minute;
 
     public Clock(int hour, int minute) {
 
