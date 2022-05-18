@@ -50,11 +50,7 @@ public class Main {
 
         Expression intExp2 = new IntegerLiteral(-5);
 
-        Expression exp1 = new Multiplication(
-                new Addition(
-                        intExp1,
-                        doubleExp1),
-                intExp2);
+        Expression exp1 = new Multiplication(new Addition(intExp1, doubleExp1), intExp2);
         printExpression(exp1, "exp1");
 
         Expression exp2 = new Multiplication(
