@@ -2,29 +2,31 @@ public class AccurateClock extends Clock{
     public int second;
     public AccurateClock(int hour, int minute, int second) {
         super(hour, minute);
-        this.second = second;
+        setSecond(second);
     }
     public int getHour() {
         return hour;
     }
 
-    public void setHour(int hour) {
-        this.hour = hour;
-    }
+
 
     public int getMinute() {
         return minute;
     }
 
-    public void setMinute(int minute) {
-        this.minute = minute;
-    }
-    public int getSecond() {
-        return second;
+    @Override
+    public boolean isAccurate() {
+        return true;
     }
 
-    public void setSecond(int hour) {
-        this.second = second;
+    public void setSecond(int second) {
+        if (second>59 || second<0){
+            this.second = 0;
+        }
+        else{
+            this.second = second;
+        }
+
     }
     @Override
     public boolean equals(Object other) {

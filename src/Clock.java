@@ -3,8 +3,9 @@ public class Clock {
     public int minute;
 
     public Clock(int hour, int minute) {
-        this.hour = hour;
-        this.minute = minute;
+
+         setHour(hour);
+         setMinute(minute);
     }
 
     public int getHour() {
@@ -12,28 +13,51 @@ public class Clock {
     }
 
     public void setHour(int hour) {
-        this.hour = hour;
+        if (hour>23 || hour<0){
+            this.hour = 0;
+        }
+        else{
+            this.hour = hour;
+        }
+
     }
 
     public int getMinute() {
+
         return minute;
     }
 
-    public void setMinute(int minute) {
-        this.minute = minute;
+    public void setMinute(int minute)  {
+        if (minute>59 || minute<0){
+            this.minute = 0;
+        }
+        else{
+            this.minute = minute;
+        }
+
+    }
+
+    public boolean isAccurate(){
+        return false;
     }
 
     @Override
     public boolean equals(Object other) {
-        if (!(other instanceof Clock)||(other instanceof AccurateClock)) {
+        if (other==(null)){
+            return false;
+        }
+        if ( !(other instanceof Clock)) {
             return false;
         }
         Clock otherClock = (Clock) other;
+        if (otherClock.isAccurate()){
+            return false;
+        }
         return this.hour == otherClock.hour && this.minute == otherClock.minute;
     }
     @Override
     public int hashCode() {
-        return 3600 * hour + 60 * minute;
+        return 3600 * hour +60* minute;
     }
     @Override
     public String toString(){
