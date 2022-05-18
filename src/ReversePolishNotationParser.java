@@ -1,2 +1,2 @@
-public class ReversePolishNotationParser {
+public class ReversePolishNotationParser extends ExpressionParser {
 }

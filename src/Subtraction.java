@@ -1,2 +1,2 @@
-public class Subtraction {
+public class Subtraction extends Expression{
 }

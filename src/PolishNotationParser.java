@@ -1,2 +1,2 @@
-public class PolishNotationParser {
+public class PolishNotationParser extends ExpressionParser {
 }

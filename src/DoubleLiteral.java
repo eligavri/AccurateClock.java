@@ -1,2 +1,2 @@
-public class DoubleLiteral {
+public class DoubleLiteral extends Expression{
 }
