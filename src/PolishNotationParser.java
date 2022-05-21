@@ -36,6 +36,7 @@ public class PolishNotationParser extends ExpressionParser {
                 case 2:
                     double intNumber = Double.parseDouble(expressionArr[i]);
                     expressionStack.push(new IntegerLiteral(intNumber));
+                    break;
                 case 3:
                     Expression unaryMinus = new UnaryMinus(expressionStack.pop());
                     expressionStack.push(unaryMinus);
