@@ -1,7 +1,7 @@
 public class UnaryMinus extends Expression {
     private Expression expression;
-    public UnaryMinus(Expression expression1, Expression expression2){
-        this.expression=expression1;
+    public UnaryMinus(Expression expression){
+        this.expression=expression;
     }
 
     @Override
