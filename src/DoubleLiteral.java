@@ -1,5 +1,6 @@
 public class DoubleLiteral extends Expression{
     private double literal;
+
     public DoubleLiteral(double literal){
         this.literal=literal;
     }
@@ -11,6 +12,6 @@ public class DoubleLiteral extends Expression{
 
     @Override
     public String toString() {
-        return "("+String.format("%f", this.literal)+")";
+        return "("+ this.literal+")";
     }
 }

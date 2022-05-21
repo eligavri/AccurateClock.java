@@ -26,13 +26,16 @@ public class RoundedExpression extends Expression{
 
     @Override
     public double evaluate() {
-        String formatString="%."+(this.levelOfRound+1)+"g%n";
-        String doubleString=String.format(formatString, expression1.evaluate());
+        double value = expression1.evaluate();
+        int integerDigitsCount = String.valueOf((int)value).length();
+        if((int) value<0) integerDigitsCount--;
+        String formatString="%."+(this.levelOfRound + integerDigitsCount)+"g%n";
+        String doubleString=String.format(formatString, value);
         return Double.parseDouble(doubleString);
     }
 
     @Override
     public String toString() {
-        return "(" + this.expression1.toString() +")";
+        return this.expression1.toString();
     }
 }

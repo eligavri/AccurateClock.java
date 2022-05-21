@@ -12,6 +12,6 @@ public class IntegerLiteral extends Expression {
     @Override
     public String toString() {
         int intValue = (int) this.literal;
-        return "("+String.format("%d", intValue)+")";
+        return "("+intValue+")";
     }
 }
