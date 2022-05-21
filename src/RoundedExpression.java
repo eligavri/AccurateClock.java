@@ -7,7 +7,7 @@ public class RoundedExpression extends Expression{
         this.levelOfRound = levelOfRound;
     }
 
-    @Override
+    /*@Override
     public double evaluate() {
         int i;
         double beforeRound = this.expression1.evaluate();
@@ -22,6 +22,13 @@ public class RoundedExpression extends Expression{
         double afterRound=beforeRound;
         return afterRound;
 
+    }*/
+
+    @Override
+    public double evaluate() {
+        String formatString="%."+(this.levelOfRound+1)+"g%n";
+        String doubleString=String.format(formatString, expression1.evaluate());
+        return Double.parseDouble(doubleString);
     }
 
     @Override
