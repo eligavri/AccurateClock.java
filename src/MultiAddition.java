@@ -2,6 +2,7 @@
  * defining a MultiAddition Expressions
  */
 public class MultiAddition extends Expression {
+
     /**
      * defining parameter - array of expressions.
      */
@@ -37,7 +38,9 @@ public class MultiAddition extends Expression {
     }
 
     /**
-     * this method creates a string which repre
+     * this method creates a string which represents a multiple addition.
+     * does so by adding the strings of each individual expression together.
+     * because of the nature of String, uses StringBuilder - for better performance.
      * @return a string representing the expression of the multiple addition
      */
     @Override
