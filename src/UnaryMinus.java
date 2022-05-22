@@ -2,6 +2,9 @@
  * Defining an UnaryMinus Expressions
  */
 public class UnaryMinus extends Expression {
+    /**
+     * Defining parameters.
+     */
     private Expression expression;
 
     /**
