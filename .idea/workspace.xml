@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd12bd56-aed6-4d01-a81c-0e42cc483dbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW_2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ourOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputA.txt" beforeDir="false" />
+    <list default="true" id="cd12bd56-aed6-4d01-a81c-0e42cc483dbf" name="Changes" comment="final_version 1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myoutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myoutput.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AccurateClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccurateClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Addition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleLiteral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLiteral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntegerLiteral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegerLiteral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolishNotationParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolishNotationParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReversePolishNotationParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReversePolishNotationParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoundedExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoundedExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnaryMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnaryMinus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +15,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,6 +91,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW_1/src/SquareElement.java" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -130,6 +121,19 @@
       <workItem from="1653143031343" duration="5149000" />
       <workItem from="1653196491415" duration="1047000" />
     </task>
+    <task id="LOCAL‎00001" summary="final_version 1.0">
+      <created>1653198569549</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1653198569549</updated>
+    </task>
+    <task id="LOCAL‎00002" summary="final_version 1.0">
+      <created>1653198615168</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1653198615168</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final_version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="final_version 1.0" />
   </component>
 </project>
