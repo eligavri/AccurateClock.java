@@ -1,7 +1,17 @@
-
-
+/**
+ * defining a MultiAddition Expressions
+ */
 public class MultiAddition extends Expression {
+    /**
+     * defining parameter - array of expressions.
+     */
     private Expression[] expressionArr;
+
+    /**
+     * creates a new MultiAddition expression.
+     * counts number of passed expressions and creates an array containing them.
+     * @param expressions - Arbitrary Number of Arguments of type Expression are passed.
+     */
     public MultiAddition(Expression... expressions){
         int count=0;
         for (Expression expression : expressions){
@@ -13,6 +23,10 @@ public class MultiAddition extends Expression {
         }
     }
 
+    /**
+     * sums the value of the expressions in the array.
+     * @return the sum value.
+     */
     @Override
     public double evaluate() {
         double sum=0;
@@ -22,6 +36,10 @@ public class MultiAddition extends Expression {
         return sum;
     }
 
+    /**
+     * this method creates a string which repre
+     * @return a string representing the expression of the multiple addition
+     */
     @Override
     public String toString() {
         StringBuilder stringBuild=new StringBuilder();
