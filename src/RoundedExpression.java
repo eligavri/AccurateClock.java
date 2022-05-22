@@ -1,31 +1,35 @@
+/**
+ * Defining an RoundedExpression Expressions
+ */
 public class RoundedExpression extends Expression{
-    private Expression expression1;
+    /**
+     * defining parameters
+     */
+    private Expression expression;
     private int levelOfRound ;
 
-    public RoundedExpression(Expression expression1, int levelOfRound) {
-        this.expression1 = expression1;
+    /**
+     * creates a new RoundedExpression expression.
+     * @param expression - this expression will be rounded by the current RoundedExpression expression.
+     * @param levelOfRound - number of digits to show after the dot.
+     */
+    public RoundedExpression(Expression expression, int levelOfRound) {
+        this.expression = expression;
         this.levelOfRound = levelOfRound;
     }
 
-    /*@Override
-    public double evaluate() {
-        int i;
-        double beforeRound = this.expression1.evaluate();
-        for (i=0; i < levelOfRound;i++){
-            beforeRound = (beforeRound)*10;
-        }
-        beforeRound = (int) beforeRound;
-        beforeRound = (double) beforeRound;
-        for (i=0; i < levelOfRound;i++){
-            beforeRound = (beforeRound)/10;
-        }
-        double afterRound=beforeRound;
-        return afterRound;
-    }*/
-
+    /**
+     * this method rounds up the value of the expression according to the requirements.
+     * the method acts by these steps:
+     * 1. gets the value.
+     * 2. gets the length of the Integer part.
+     * 3. creates a string containing the Integer part and the wanted fraction part.
+     * 4. parses the string back to double.
+     * @return the rounded value of the given expression.
+     */
     @Override
     public double evaluate() {
-        double value = expression1.evaluate();
+        double value = expression.evaluate();
         int integerDigitsCount = String.valueOf((int)value).length();
         if((int) value<0) integerDigitsCount--;
         String formatString="%."+(this.levelOfRound + integerDigitsCount)+"g%n";
@@ -33,8 +37,11 @@ public class RoundedExpression extends Expression{
         return Double.parseDouble(doubleString);
     }
 
+    /**
+     * @return the representation of the value without changing it.
+     */
     @Override
     public String toString() {
-        return this.expression1.toString();
+        return this.expression.toString();
     }
 }
