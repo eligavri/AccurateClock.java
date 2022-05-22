@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cd12bd56-aed6-4d01-a81c-0e42cc483dbf" name="Changes" comment="final_version 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/AccurateClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/AccurateClock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Clock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ExpressionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ExpressionParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/RoundedExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/RoundedExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled104/UnaryMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/UnaryMinus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoubleLiteral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLiteral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntegerLiteral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegerLiteral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoundedExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoundedExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UnaryMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnaryMinus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +144,13 @@
       <option name="presentableId" value="LOCAL‎00003" />
       <updated>1653202228998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎00004" summary="final_version 1.0">
+      <created>1653203849531</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1653203849531</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
