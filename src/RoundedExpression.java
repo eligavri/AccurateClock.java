@@ -1,5 +1,5 @@
 /**
- * Defining an RoundedExpression Expressions
+ * defining a RoundedExpression Expressions.
  */
 public class RoundedExpression extends Expression{
     /**
@@ -22,8 +22,8 @@ public class RoundedExpression extends Expression{
      * this method rounds up the value of the expression according to the requirements.
      * the method acts by these steps:
      * 1. gets the value.
-     * 2. gets the length of the Integer part.
-     * 3. creates a string containing the Integer part and the wanted fraction part.
+     * 2. gets the length of the integer part.
+     * 3. creates a string containing the integer part and the wanted fraction part.
      * 4. parses the string back to double.
      * @return the rounded value of the given expression.
      */
