@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd12bd56-aed6-4d01-a81c-0e42cc483dbf" name="Changes" comment="final_version 1.0">
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Addition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Division.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DoubleLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DoubleLiteral.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/IntegerLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/IntegerLiteral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled104/MultiAddition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/MultiAddition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Multiplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Subtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Subtraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/MultiMultiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/MultiMultiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/PolishNotationParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/PolishNotationParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ReversePolishNotationParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ReversePolishNotationParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PolishNotationParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolishNotationParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReversePolishNotationParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReversePolishNotationParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +156,13 @@
       <option name="presentableId" value="LOCAL‎00005" />
       <updated>1653205472094</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎00006" summary="final_version 1.0">
+      <created>1653206318644</created>
+      <option name="number" value="LOCAL‎00006" />
+      <option name="presentableId" value="LOCAL‎00006" />
+      <updated>1653206318644</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

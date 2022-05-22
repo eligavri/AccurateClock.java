@@ -1,5 +1,17 @@
+/**
+ * Defining a ReversePolishNotationParser.
+ * extends ExpressionParser.
+ */
 public class ReversePolishNotationParser extends ExpressionParser {
-
+    /**
+     * creates a new stack to store the expressions in order to pop them by a certain order.
+     * we divide the string to an array by splitting them by spaces.
+     * each cell represent a part of the expression.
+     * we start the division to cases from the start.
+     * in each case, according to the "type of string" we are implementing the wanted action.
+     * @param expressionString the string which we want to parse into expression.
+     * @return an arithmetic expression.
+     */
     @Override
     public Expression parse(String expressionString) {
         Stack<Expression> expressionStack = new Stack<>();
@@ -7,7 +19,14 @@ public class ReversePolishNotationParser extends ExpressionParser {
 
         for(int i=0; i<expressionArr.length; i++){
             int typeOfString =typeOfString(expressionArr[i]);
+            /**
+             * now we got the type of the string in the current cell.
+             * we act accordingly.
+             */
             switch (typeOfString){
+                /**
+                 * cases : +,-,*,/
+                 */
                 case 0:
                     Expression expression1, expression2;
                     expression2=expressionStack.pop();
@@ -27,14 +46,23 @@ public class ReversePolishNotationParser extends ExpressionParser {
                             break;
                     }
                     break;
+                /**
+                 * case: a double type number.
+                 */
                 case 1:
                     double doubleNumber = Double.parseDouble(expressionArr[i]);
                     expressionStack.push(new DoubleLiteral(doubleNumber));
                     break;
+                /**
+                 * case: an integer type number.
+                 */
                 case 2:
                     double intNumber = Double.parseDouble(expressionArr[i]);
                     expressionStack.push(new IntegerLiteral(intNumber));
                     break;
+                /**
+                 * case: unaryMinus operation.
+                 */
                 case 3:
                     Expression unaryMinus = new UnaryMinus(expressionStack.pop());
                     expressionStack.push(unaryMinus);
