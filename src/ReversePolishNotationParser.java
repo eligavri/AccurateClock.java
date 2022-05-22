@@ -10,8 +10,8 @@ public class ReversePolishNotationParser extends ExpressionParser {
             switch (typeOfString){
                 case 0:
                     Expression expression1, expression2;
-                    expression1=expressionStack.pop();
                     expression2=expressionStack.pop();
+                    expression1=expressionStack.pop();
                     switch (expressionArr[i].charAt(0)){
                         case '+':
                             expressionStack.push(new Addition(expression1,expression2));
